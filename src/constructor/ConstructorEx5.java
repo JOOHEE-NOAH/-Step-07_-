@@ -33,7 +33,8 @@ import java.util.Scanner;
 		 a=sc.nextInt();
 		 System.out.print("input B : ");
 		 b=sc.nextInt();
-		 }
+		sc.close(); 
+	  }
 	 
 	 public int minValue() {
 		 return (a<b)? a:b ;

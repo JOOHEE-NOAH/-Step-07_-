@@ -20,7 +20,7 @@ class UserInfo{
 		System.out.println("***** 주소록 *****");
 	}
 	public UserInfo(String name, String addr) {
-		this();
+		this();//매개변수가 없는 생성자를 호출.
 		this.name= name;
 		this.addr= addr;
 		
